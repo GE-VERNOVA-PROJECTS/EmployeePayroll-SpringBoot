@@ -2,7 +2,12 @@ package com.gevernova.EmployeePayroll.dto;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
 import lombok.Data;
+import org.intellij.lang.annotations.Pattern;
+import org.jetbrains.annotations.NotNull;
 
 import javax.validation.constraints.*;
 import java.time.LocalDate;
